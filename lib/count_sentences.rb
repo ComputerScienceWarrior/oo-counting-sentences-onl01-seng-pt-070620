@@ -19,11 +19,11 @@ class String
     punc_count = 0 #keeps track of punctuation
 
     sentence.each do |words|
-      if words.ends_with?('!')
+      if words.end_with?('!')
         punc_count += 1
-      elsif words.ends_with?('.')  
+      elsif words.end_with?('.')  
         punc_count += 1
-      elsif words.ends_with('?')
+      elsif words.end_with('?')
         punc_count += 1
       end
       # binding.pry

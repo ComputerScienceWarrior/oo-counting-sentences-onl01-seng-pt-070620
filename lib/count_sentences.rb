@@ -17,6 +17,7 @@ class String
   def count_sentences
     sentence = self.split
     binding.pry
+    
     if sentence.exclamation?
       sentence = sentence.split('!')
     elsif sentence.question?

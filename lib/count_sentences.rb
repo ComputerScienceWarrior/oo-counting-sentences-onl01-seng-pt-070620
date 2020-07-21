@@ -19,6 +19,15 @@ class String
     sentence = self.split
     # binding.pry
     sentence.each do |words|
+      if words.ends_with?('!')
+        
+      elsif words.ends_with?('.')  
+      
+      elsif words.ends_with('?')
+      
+      elsif sentence.size == 0
+        
+      end
       binding.pry
     end
     

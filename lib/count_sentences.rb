@@ -29,6 +29,6 @@ class String
       # binding.pry
     end
     
-    return sentence.size
+    return punc_count
   end
 end

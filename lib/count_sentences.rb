@@ -20,6 +20,7 @@ class String
     sentence.each do |words|
       if sentence.exclamation?
         sentence = sentence.split('!')
+        binding.pry
       elsif sentence.question?
         sentence = sentence.split('?')
       elsif sentence.sentence?

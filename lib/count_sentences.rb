@@ -23,7 +23,7 @@ class String
         punc_count += 1
       elsif words.end_with?('.')  
         punc_count += 1
-      elsif words.end_with('?')
+      elsif words.end_with?('?')
         punc_count += 1
       end
       # binding.pry

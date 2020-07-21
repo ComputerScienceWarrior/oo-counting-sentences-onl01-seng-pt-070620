@@ -19,7 +19,7 @@ class String
     sentence = self.split
     # binding.pry
     sentence.each do |words|
-      binding.pry  
+      binding.pry
     end
     
     return sentence.size

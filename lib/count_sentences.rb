@@ -18,12 +18,12 @@ class String
     sentence = self.split
     # binding.pry
     sentence.each do |words|
-      if sentence.exclamation?
+      if words.exclamation?
         sentence = sentence.split('!')
         binding.pry
-      elsif sentence.question?
+      elsif words.question?
         sentence = sentence.split('?')
-      elsif sentence.sentence?
+      elsif words.sentence?
         sentence = sentence.split('.')
       elsif sentence.size == 0
       end    

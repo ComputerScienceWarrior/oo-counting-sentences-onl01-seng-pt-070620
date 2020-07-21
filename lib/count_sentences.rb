@@ -15,18 +15,16 @@ class String
   end
 
   def count_sentences
-  
     sentence = self.split
-    # binding.pry
+    punc_count = 0 #keeps track of punctuation
+
     sentence.each do |words|
       if words.ends_with?('!')
-        
+        punc_count += 1
       elsif words.ends_with?('.')  
-      
+        punc_count += 1
       elsif words.ends_with('?')
-      
-      elsif sentence.size == 0
-        
+        punc_count += 1
       end
       binding.pry
     end

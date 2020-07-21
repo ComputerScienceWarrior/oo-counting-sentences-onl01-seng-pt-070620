@@ -18,15 +18,7 @@ class String
     sentence = self.split
     # binding.pry
     sentence.each do |words|
-      if words.exclamation?
-        sentence = sentence.split('!')
-        binding.pry
-      elsif words.question?
-        sentence = sentence.split('?')
-      elsif words.sentence?
-        sentence = sentence.split('.')
-      elsif sentence.size == 0
-      end    
+      binding.pry  
     end
     
     return sentence.size

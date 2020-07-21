@@ -26,7 +26,7 @@ class String
       elsif words.ends_with('?')
         punc_count += 1
       end
-      binding.pry
+      # binding.pry
     end
     
     return sentence.size

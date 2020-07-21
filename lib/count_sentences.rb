@@ -25,6 +25,7 @@ class String
       elsif sentence.sentence?
         sentence = sentence.split('.')
       elsif sentence.size == 0
+      end    
     end
     
     return sentence.size
